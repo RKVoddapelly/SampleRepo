@@ -1,1 +1,1 @@
-Learning to use Git and GitHub
+Learning to use <b>Git</b> and <b>GitHub</b>
