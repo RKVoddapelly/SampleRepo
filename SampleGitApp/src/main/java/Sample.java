@@ -12,6 +12,6 @@ public class Sample {
     public static void main(String... args){
         System.out.println("Welcome to Git Learning");
         System.out.println("Self Learning Continues");
-        System.out.prinltn("Hello World, GIT");
+        System.out.println("Hello World, GIT");
     }
 }
