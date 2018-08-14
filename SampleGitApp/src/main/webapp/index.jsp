@@ -11,6 +11,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        
         <h1>Hello World! From JSP</h1>
         <strong>Git is Strong</strong>
         <h1>Hello World!</h1>
