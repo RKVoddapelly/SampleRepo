@@ -11,6 +11,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <h1>Change after v1.0 tagging</h1>
         
         <h1>Hello World! From JSP</h1>
         <strong>Git is Strong</strong>
