@@ -11,6 +11,7 @@ import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 /**
  *
@@ -23,9 +24,13 @@ public class UserDAOImpl implements UserDAO{
     @PersistenceContext
     private EntityManager entityManager;
     
+    @ConfigProperty(name = "max.users.per.page",defaultValue = "4")
+    private int maxUsers;
+    
     @Override
     public List<Users> getAllUsers() {
         return entityManager.createQuery("SELECT u FROM Users u")
+                .setMaxResults(maxUsers)
                 .getResultList();
     }
 
