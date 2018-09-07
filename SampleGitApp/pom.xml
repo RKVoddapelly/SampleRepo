@@ -8,8 +8,6 @@
     <artifactId>SampleGitApp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-         
-
     <name>SampleGitApp</name>
 
     <!--properties>
