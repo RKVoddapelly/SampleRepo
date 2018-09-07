@@ -9,6 +9,7 @@ COPY --from=build /usr/src/app/target/SampleGitApp-1.0-SNAPSHOT-thorntail.jar /u
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "/usr/app/SampleGitApp-1.0-SNAPSHOT-thorntail.jar"]
 
+
 #FROM maven:alpine
 #WORKDIR /usr/src/app
 #COPY pom.xml .
