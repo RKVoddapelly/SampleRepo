@@ -10,10 +10,6 @@
     <packaging>war</packaging>
     <name>SampleGitApp</name>
 
-    <!--properties>
-        <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties-->
     <properties>
         <version.thorntail>2.1.0.Final</version.thorntail>
         <maven.compiler.source>1.8</maven.compiler.source>
